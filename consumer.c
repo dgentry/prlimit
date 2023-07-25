@@ -3,6 +3,17 @@
 #include <time.h>
 #include <unistd.h>
 
+/* 
+Consume some CPU.
+
+1. Write our PID to a file
+2. Loop on this forever:
+    a) chew up some CPU with a loop
+    b) Print our elapsed CPU
+
+Note: Don't leave this running.
+*/
+
 int main() {
     int i;
     int loopCounter = 1;
