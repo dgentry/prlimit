@@ -21,7 +21,6 @@ msg "Launching consumer"
 time ./consumer &
 
 while [[ -z $pid ]]; do
-    msg "Reading consumer pid$"
     pid=$(cat consumer_pid.txt)
     # Print the PID
     msg "PID of the CPU consumer program: $pid"
