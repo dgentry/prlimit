@@ -9,7 +9,6 @@ Here's what it does:
 ```console
 $ ./run-prlimit.sh
 Launching consumer
-Reading consumer pid$
 I think I can do 1000000 clocks per second
 PID of the CPU consumer program: 106144
 Message 1: CPU Time Used: 0.545675 seconds.
